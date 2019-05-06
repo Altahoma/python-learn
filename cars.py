@@ -1,11 +1,6 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(cars)
-cars.sort()
-print(cars)
-cars.sort(reverse=True)
-print(cars)
-print(sorted(cars))
-print(cars)
-cars.reverse()
-print(cars)
-print(len(cars))
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
